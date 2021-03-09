@@ -420,7 +420,10 @@ p {
         border-radius: 0 !important;
         padding: 0;
         margin: 0px;
-        text-align: center;
+        text-align: center !important;
+    }
+    .header .menu > li {
+        display: contents;
     }
     .header .menu > li > a {
         padding: 0 7px !important;
