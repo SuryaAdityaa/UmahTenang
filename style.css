@@ -323,6 +323,10 @@ p {
         background-color: transparent;
         margin-bottom: 50px;
     }
+
+    .contact-us .row {
+        width: 100%;
+    }
 }
 @media only screen and (max-width: 760px) {
     /* Banner */
@@ -399,11 +403,26 @@ p {
     .map .row {
         flex-direction: column-reverse;
     }
+    .contact-us .row {
+        width: 100%;
+    }
     .map .mapouter,
     .map .mapouter .gmap_canvas {
         width: 100%;
     }
     .map .row .contact {
         padding: 20px;
+    }
+    .header {
+        width: 100%;
+        top: 0;
+        left: 0;
+        border-radius: 0 !important;
+        padding: 0;
+        margin: 0px;
+        text-align: center;
+    }
+    .header .menu > li > a {
+        padding: 0 7px;
     }
 }
