@@ -43,6 +43,9 @@ function openGallery(category) {
     }
     document.getElementById(category).style.display = "block";
 }
+$('.tab-button').on("click", function() {
+  $('.gallery-wrap').hide().fadeIn();
+})
 
 $('.tab-button').on("click", function() {
   $('.active').not(this).removeClass('active');
