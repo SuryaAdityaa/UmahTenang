@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
@@ -20,8 +20,8 @@
             <li><a class="menu-link" target="about">About</a></li>
             <li><a class="menu-link" target="rooms">Rooms</a></li>
             <li><a class="menu-link" target="testimonials">Testimonials</a></li>
+            <li><a class="menu-link" target="gallery">Gallery</a></li>
             <li><a class="menu-link" target="contact-us">Contact Us</a></li>
-            <li><a class="menu-link" target="location">Location</a></li>
         </ul>
     </div>
     <section class="banner">
@@ -107,6 +107,53 @@
                 </div>
             </div>
         </div>
+        <div id="gallery" class="gallery">
+            <div id="gallery-tab" class="gallery-tab">
+                <button class="tab-button active" onclick="openGallery('Bedrooms')">Bedrooms</button>
+                <button class="tab-button" onclick="openGallery('Terrace/Yard')">Terrace/Yard</button>
+                <button class="tab-button" onclick="openGallery('Pool')">Pool</button>
+            </div>
+            <div class="gallery-wrap">
+                <div id="Bedrooms" class="tab-container gallery-slide">
+                    <div class="tab-wrap">
+                        <img src="assets/gallery/bedrooms/bedrooms-1.jpg" alt="Gallery">
+                        <img src="assets/gallery/bedrooms/bedrooms-2.jpg" alt="Gallery">
+                        <img src="assets/gallery/bedrooms/bedrooms-3.jpg" alt="Gallery">
+                        <img src="assets/gallery/bedrooms/bedrooms-4.jpg" alt="Gallery">
+                        <img src="assets/gallery/bedrooms/bedrooms-5.jpg" alt="Gallery">
+                        <img src="assets/gallery/bedrooms/bedrooms-6.jpg" alt="Gallery">
+                        <img src="assets/gallery/bedrooms/bedrooms-7.jpg" alt="Gallery">
+                        <img src="assets/gallery/bedrooms/bedrooms-8.jpg" alt="Gallery">
+                        <img src="assets/gallery/bedrooms/bedrooms-9.jpg" alt="Gallery">
+                    </div>
+                </div>
+                  
+                <div id="Terrace/Yard" class="tab-container gallery-slide" style="display:none">
+                    <div class="tab-wrap">
+                        <img src="assets/gallery/yard/yard-1.jpg" alt="Gallery">
+                        <img src="assets/gallery/yard/yard-2.jpg" alt="Gallery">
+                        <img src="assets/gallery/yard/yard-3.jpg" alt="Gallery">
+                        <img src="assets/gallery/yard/yard-4.jpg" alt="Gallery">
+                        <img src="assets/gallery/yard/yard-5.jpg" alt="Gallery">
+                        <img src="assets/gallery/yard/yard-6.jpg" alt="Gallery">
+                        <img src="assets/gallery/yard/yard-7.jpg" alt="Gallery">
+                        <img src="assets/gallery/yard/yard-8.jpg" alt="Gallery">
+                        <img src="assets/gallery/yard/yard-9.jpg" alt="Gallery">
+                    </div>
+                </div>
+                  
+                <div id="Pool" class="tab-container gallery-slide" style="display:none">
+                    <div class="tab-wrap">
+                        <img src="assets/gallery/pool/pool-1.jpg" alt="Gallery">
+                        <img src="assets/gallery/pool/pool-2.jpg" alt="Gallery">
+                        <img src="assets/gallery/pool/pool-3.jpg" alt="Gallery">
+                        <img src="assets/gallery/pool/pool-4.jpg" alt="Gallery">
+                        <img src="assets/gallery/pool/pool-5.jpg" alt="Gallery">
+                        <img src="assets/gallery/pool/pool-6.jpg" alt="Gallery">
+                    </div>
+                </div>
+            </div>
+        </div>
         <div id="contact-us" class="contact-us">
             <div class="row">
                 <h2>Contact Us</h2>
@@ -130,6 +177,6 @@
             </div>
         </div>
     </section>
-    <script src="main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
