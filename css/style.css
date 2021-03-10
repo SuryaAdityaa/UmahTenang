@@ -248,7 +248,7 @@ p {
     position: relative;
 }
 .gallery .gallery-tab {
- margin: 0 auto;
+    margin: 0 auto;
 }
 .gallery-tab .tab-button {
     background-color: #9BA9B1;
@@ -258,6 +258,7 @@ p {
     outline: 0;
     cursor: pointer;
     transition: .3s all ease;
+    margin: 0 -1.7px !important;
 }
 .gallery-tab .tab-button:hover,
 .active {
