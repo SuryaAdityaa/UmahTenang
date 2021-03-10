@@ -480,6 +480,9 @@ p {
     }
 
     /* Contact */
+    .contact-us {
+        padding: 50px 20px;
+    }
     .map .row {
         flex-direction: column-reverse;
     }
